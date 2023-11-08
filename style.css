@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+  font-size: 2em;
+  background-color: #bbb;
+  font-family: "Helvetica Neue", sans-serif;
+  margin: 25px;
+}
+.square{
+  background-color: #262525;
+  display: block;
+  margin: 0 auto;
+  height: 20px;
+  width: 200px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.camera{
+  background-color: #191818;
+  display: block;
+  margin: 0 auto;
+  height: 10px;
+  width: 100px;
+}
+.container {
+  border: 15px solid #262525;
+  background: black;
+  border-radius: 50px;
+  color: white;
+  height: 650px;
+  padding-left: 20px;
+  position: relative;
+  width: 450px;
+}
+.monitor{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 50px;
+  height: 160px;
+}
+#display {
+  text-align: right;
+  width: 300px;
+  text-overflow: hidden;
+  font-size: 60px;
+  display: block;
+}
+.buttonList {
+  display: grid;
+  row-gap: 18px;
+  column-gap: 1px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+#btn {
+  align-items: center;
+  background: #262525;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  font-size: 30px;
+  height: 70px;
+  justify-content: center;
+  transition: filter 0.3s;
+  text-align: center;
+  color: #fff;
+  width: 70px;
+}
+#clear {
+  border-radius: 50%;
+  width: 700px;
+  height: 700px;
+  background-color: rgb(239, 193, 9);
+}
+#result {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  background: #f1a33c;
+  position: absolute;
+  margin-top: 360px;
+  margin-left: 300px;
+  font-size: 30px;
+  justify-content: center;
+  transition: filter 0.3s;
+  color: #fff;
+  border: none;
+}
+#cancel{
+  background: #bbb;
+  border-radius: 50%;
+  font-size: 30px;
+  height: 70px;
+  width: 70px;
+  font-size: 30px;
+  border: none;
+}
+#operator {
+  border-radius: 50%;
+  background: #f1a33c;
+  border: none;
+  font-size: 30px;
+  color: #fff;
+  height: 70px;
+  width: 70px;
+}
+#minor {
+  border-radius: 50%;
+  background:#bbb;
+  border: none;
+  font-size: 30px;
+  height: 70px;
+  width: 70px;
+}
+#percent {
+  border-radius: 50%;
+  background: #bbb;
+  border: none;
+  font-size: 30px;
+  height: 70px;
+  width: 70px;
+}
