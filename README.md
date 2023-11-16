@@ -1,4 +1,4 @@
 # Calculator-
 Simple javascript calculator
 
-https://marcocarugo.github.io/Calculator-/
+https://marcocarugo.github.io/Calculator/
